@@ -1,0 +1,25 @@
+[
+  {
+    "name": "Main Navigation"
+  },
+  {
+    "name": "Dashboard",
+    "url": "/dashboard",
+    "icon": "fa-tachometer-alt"
+  },
+  {
+    "name": "iViewer",
+    "url": "/iviewer",
+    "icon": "fa-eye"
+  },
+  {
+    "name": "Hire IQ",
+    "url": "/hireiq",
+    "icon": "fa-lightbulb"
+  },
+  {
+    "name": "Talk Push",
+    "url": "/talkpush",
+    "icon": "fa-bullhorn"
+  }
+]

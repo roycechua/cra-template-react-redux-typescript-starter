@@ -1,0 +1,28 @@
+{
+  "name": "cra-template-react-redux-typescript-starter",
+  "version": "1.0.0",
+  "keywords": [
+    "react",
+    "redux",
+    "typescript",
+    "create-react-app",
+    "template"
+  ],
+  "description": "Customized template for a React Redux with TypeScript projet.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roycechua23/cra-template-react-redux-typescript-starter.git",
+    "directory": "./"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "bugs": {
+    "url": "https://github.com/facebook/create-react-app/issues"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}

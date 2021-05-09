@@ -1,0 +1,30 @@
+// VARIABLE OVERRIDE
+// $primary: #f38022 !default;
+$theme-colors: (
+  primary: #000082,
+  secondary: #25b3a0,
+  success: #017c3d,
+  info: #01a1dd,
+  warning: #f89d53,
+  danger: #ee3442,
+  light: #f89d53,
+  dark: #000082,
+  green: #017c3d,
+);
+
+$primary: #000082;
+$secondary: #25b3a0;
+$success: #77be44;
+$info: #01a1dd;
+$warning: #f89d53;
+$danger: #ee3442;
+$light: #f89d53;
+$dark: #dc6809;
+$green: #017c3d; // RESOURCES
+
+// @import "~bootstrap/scss/bootstrap";
+// @import "~admin-lte/dist/css/adminlte.css";
+
+.modal-backdrop {
+  opacity: 0.5 !important;
+}

@@ -47,7 +47,7 @@ const Login = () => {
         onFinish={onFinish}
         onFinishFailed={onFinishFailed}
       >
-        <h1>PSMBFI Member Portal</h1>
+        <h1>App Name</h1>
         <Form.Item
           label="Username"
           name="username"

@@ -1,10 +1,17 @@
-# cra-template
+# cra-template-react-redux-typescript-starter
 
-This is the official base template for [Create React App](https://github.com/facebook/create-react-app).
+This is a customized template for a React Application that uses Redux Toolkit with TypeScript.
 
-If you don't specify a template (for example, `--template typescript`), this template will be used by default.
+To use this template simply use the command for creating a new React application 
+``` bash
+npx create-react-app my-app --template react-redux-typescript-starter
+```
 
-For more information, please refer to:
+## Important packages included with the template
+- TypeScript
+- Redux Toolkit
+- React Router Dom v5
+- Ant Design (UI Library)
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+## License 
+MIT

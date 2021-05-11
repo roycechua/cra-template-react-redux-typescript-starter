@@ -28,7 +28,7 @@ const {Item} = Breadcrumb;
 const { Search } = Input;
 const { Option } = Select;
 
-const Dashboard = () => {
+const Users = () => {
     const history = useHistory();
 
     /// this is for table columns 
@@ -81,18 +81,23 @@ const Dashboard = () => {
       },
     ];
     
-    
     return  (
         <Layout style={{ minHeight: '100vh' }}>
-        <SideBar itemSelected={"home"} itemOpen={"home"}/>
+        <SideBar itemSelected={"users"} itemOpen={"users"}/>
         <Layout className="site-layout">
           <Header className="site-layout-background" style={{ padding: 0 }} />
           <Content style={{ margin: '0 100px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
-              <Item>Home</Item>
-              <Item>Dashboard</Item>
+              <Item>User Management</Item>
+              <Item>Users</Item>
             </Breadcrumb>
-            <h1>Dashboard Page</h1>
+            <div className="site-layout-background" style={{ padding: 24, minHeight: 360 }}>
+                <div style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center'}}>
+                            <p style={{fontSize: 15, fontWeight: 'bold', marginTop: 10, marginLeft: 10}}>Users List</p>
+                            <Search placeholder="input search text" onSearch={() => {}} enterButton style={{width: '20vw'}} allowClear/>
+                        </div>
+                        <Table columns={columnsIncomplete} dataSource={data} size="small" bordered  footer={() => 'All New Records'} style={{padding: 10}}/>
+                </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>Ant Design ©2018 Created by Ant UED</Footer>
         </Layout>
@@ -100,4 +105,4 @@ const Dashboard = () => {
     )
 }
 
-export default Dashboard
+export default Users

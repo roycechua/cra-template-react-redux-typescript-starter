@@ -28,8 +28,9 @@ const App = () => {
           <Route path="/" exact component={Login} />
           {
             token ? <Route path="/" component={routesContainer} />
-            : <Route path="*" component={NotFound}/>
+            : <div>loading</div>
           }
+          <Route component={NotFound}/>
       </Switch>
     </Router>
   );

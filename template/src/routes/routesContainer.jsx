@@ -2,6 +2,7 @@ import React, { Suspense } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 import Dashboard from "../pages/dashboard/Dashboard";
+import Users from '../pages/users/Users';
 import NotFound from "../pages/NotFound";
 
 // const Dashboard = React.lazy(() => import("../pages/dashboard/Dashboard"));
@@ -18,6 +19,7 @@ const routesContainer = () => {
     <Switch>
       {/* <Suspense fallback={<div>Loading...</div>}> */}
         <Route path="/dashboard" exact component={Dashboard} />
+        <Route path="/users" exact component={Users} />
         {/* <Route path="/iviewer" component={Iviewer} />
         <Route path="/hireiq" component={HireIQ} />
         <Route exact path="/talkpush" component={TalkPush} />
